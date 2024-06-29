@@ -90,7 +90,7 @@ fun LoginScreen(context: Context, databaseHelper: UserDatabaseHelper) {
                         context.startActivity(
                             Intent(
                                 context,
-                                MainActivity::class.java
+                                MainActivity::class.python
                             )
                         )
                         //onLoginSuccess()
